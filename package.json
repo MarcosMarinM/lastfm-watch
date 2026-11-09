@@ -1,0 +1,16 @@
+{
+  "name": "lastfm-watch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weekly Telegram digest of name inconsistencies between recent Last.fm scrobbles and the previous history.",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "dry-run": "node --env-file=.env src/run.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "UNLICENSED"
+}
