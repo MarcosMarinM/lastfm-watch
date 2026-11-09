@@ -89,7 +89,7 @@ O cambia `DRY_RUN=0` en `.env` y ejecuta `npm run dry-run`.
 
 El workflow está en `.github/workflows/weekly.yml` y se ejecuta:
 
-- **Automáticamente** los domingos a las `08:00 UTC` (`0 8 * * 0`). En España son las 09:00 en invierno y las 10:00 en verano.
+- **Automáticamente** los domingos a las `19:00 UTC` (`0 19 * * 0`). En España son las 20:00 en invierno y las 21:00 en verano.
 - **Manual** desde la pestaña **Actions → lastfm-watch → Run workflow**, con opción de `dry_run`.
 
 ### 1. Crear el repositorio privado
