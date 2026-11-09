@@ -1,0 +1,14 @@
+name: push-debug
+
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo hello
