@@ -1,0 +1,14 @@
+name: debug-actions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo hello
