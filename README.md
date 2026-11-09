@@ -10,8 +10,8 @@ No modifica nada en Last.fm. Solo lee y avisa.
 2. **API key de Last.fm**: se crea gratis en <https://www.last.fm/api/account/create>.
 3. **Token del bot de Telegram**: se crea con [@BotFather](https://t.me/BotFather).
 4. **Chat ID de Telegram**: el identificador de tu chat con el bot.
-5. **Repo privado de GitHub** para ejecutar el workflow semanal. Yo puedo crearlo y subir el código; los secretos los configuras tú en GitHub (no hace falta que me los pegues aquí).
-6. **Confirmar la zona horaria** (por defecto `Europe/Madrid`) y si quieres recibir mensaje también en semanas sin incoherencias (por defecto sí).
+5. **Repo privado de GitHub**: ya está creado en <https://github.com/MarcosMarinM/lastfm-watch>. Solo faltan los cuatro secretos.
+6. **Zona horaria**: `Europe/Madrid`, y sí se envía mensaje también en semanas sin incoherencias.
 
 ## Cómo funciona
 
